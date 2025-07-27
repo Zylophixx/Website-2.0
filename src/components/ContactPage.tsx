@@ -125,7 +125,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
           onClick={onBack}
           className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors duration-300 group backdrop-blur-sm bg-white/5 px-4 py-2 rounded-full border border-white/10"
         >
-          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
+          <ArrowLeft className="w-5 h-5 group-hover:-translate-x-3 transition-transform duration-300" />
           <span className="font-medium text-glow-white">Back to Portfolio</span>
         </button>
       </header>
