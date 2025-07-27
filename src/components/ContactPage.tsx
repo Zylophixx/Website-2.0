@@ -42,7 +42,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
         <div className="absolute top-[25%] right-[15%] text-purple-400/20 text-5xl transform -rotate-6">
           🎬
         </div>
-        <div className="absolute top-[20%] left-[50%] text-purple-300/20 text-5xl transform -rotate-12">
+        <div className="absolute top-[30%] left-[50%] text-purple-300/20 text-5xl transform -rotate-12">
           🎞️
         </div>
         <div className="absolute top-[70%] right-[25%] text-blue-400/20 text-6xl transform rotate-6">
