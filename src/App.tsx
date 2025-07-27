@@ -313,7 +313,7 @@ function App() {
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-100"
             style={{
-              backgroundImage: `url('https://sdmntpreastus.oaiusercontent.com/files/00000000-5758-61f9-b6d2-3c97f146ab8f/raw?se=2025-07-27T07%3A24%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=50e643d0-8d15-54a0-a9ae-8f267237605f&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T20%3A16%3A53Z&ske=2025-07-27T20%3A16%3A53Z&sks=b&skv=2024-08-04&sig=7V2eGmC5barnLKlL8kxKIC4F8hMClS6vNK/UyUP/6ek%3D')`,
+              backgroundImage: `url('https://sdmntpreastus.oaiusercontent.com/files/00000000-8444-61f9-a505-4b288785c056/raw?se=2025-07-27T07%3A29%3A27Z&sp=r&sv=2024-08-04&sr=b&scid=b1127a4e-a21c-5489-9450-4ac824fb5212&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-26T20%3A16%3A53Z&ske=2025-07-27T20%3A16%3A53Z&sks=b&skv=2024-08-04&sig=tyhOcYDQaT6/ajEzJEpTQ5xm/IvzdtHiSht/QTVZRTs%3D')`,
               filter: 'blur(1px) brightness(0.4) contrast(1.2)'
             }}
           />
