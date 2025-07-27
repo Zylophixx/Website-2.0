@@ -36,7 +36,7 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
       {/* Editing Symbols Background */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {/* Timeline symbols */}
-        <div className="absolute top-[15%] left-[10%] text-blue-400/20 text-6xl font-mono transform rotate-12">
+        <div className="absolute top-[15%] left-[50%] text-blue-400/20 text-6xl font-mono transform rotate-12">
           ⏱️
         </div>
         <div className="absolute top-[25%] right-[15%] text-purple-400/20 text-5xl transform -rotate-6">
