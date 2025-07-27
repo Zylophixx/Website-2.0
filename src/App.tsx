@@ -314,7 +314,7 @@ function App() {
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-100"
             style={{
               backgroundImage: `url('https://i.ibb.co/kVYqBKVL/db470eb0-aeb7-47d0-9f76-d8f7fe6a4312-1-1.png')`,
-              filter: 'blur(1px) brightness(0.4) contrast(1.2)'
+              filter: 'blur(0px) brightness(0.4) contrast(1.2)'
             }}
           />
           {/* Overlay to blend with gradient */}
