@@ -56,10 +56,10 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
         <div className="absolute top-[20%] left-[75%] text-blue-400/15 text-2xl font-mono transform rotate-12">
           [CUT]
         </div>
-        <div className="absolute top-[50%] right-[80%] text-purple-400/15 text-xl font-mono transform -rotate-8">
+        <div className="absolute top-[45%] right-[80%] text-purple-400/15 text-xl font-mono transform -rotate-8">
           FADE IN
         </div>
-        <div className="absolute top-[65%] left-[15%] text-blue-300/15 text-2xl font-mono transform rotate-15">
+        <div className="absolute top-[15%] left-[70%] text-blue-300/15 text-2xl font-mono transform rotate-15">
           EDIT
         </div>
         <div className="absolute top-[30%] right-[30%] text-purple-300/15 text-xl font-mono transform -rotate-10">
