@@ -86,12 +86,6 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
           }
         `}</style>
         
-        <div className="absolute top-[15%] left-[60%] text-blue-400/20 text-5xl float-animation" style={{'--rotation': '15deg'} as React.CSSProperties}>
-          🎪
-        </div>
-        <div className="absolute top-[55%] left-[80%] text-purple-400/20 text-4xl float-animation" style={{'--rotation': '-10deg'} as React.CSSProperties}>
-          🎯
-        </div>
       </div>
       
       {/* Sophisticated Grid Background */}
