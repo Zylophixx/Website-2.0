@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowLeft, Mail, Phone, MapPin, Send, User, MessageSquare, Calendar, CheckCircle } from 'lucide-react';
+import FloatingIcons from './FloatingIcons';
 
 interface ContactPageProps {
   onBack: () => void;
@@ -33,60 +34,8 @@ const ContactPage: React.FC<ContactPageProps> = ({ onBack }) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0a0a0f] via-[#0f1419] to-[#1a1a2e] relative overflow-hidden">
-      {/* Editing Symbols Background */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Timeline symbols */}
-        <div className="absolute top-[15%] left-[30%] text-blue-400/20 text-6xl font-mono transform rotate-12">
-          ⏱️
-        </div>
-        <div className="absolute top-[25%] right-[15%] text-purple-400/20 text-5xl transform -rotate-6">
-          🎬
-        </div>
-        <div className="absolute top-[30%] left-[45%] text-purple-300/20 text-5xl transform -rotate-12">
-          🎞️
-        </div>
-        <div className="absolute top-[70%] right-[25%] text-blue-400/20 text-6xl transform rotate-6">
-          📹
-        </div>
-        <div className="absolute top-[10%] right-[80%] text-purple-300/20 text-4xl transform rotate-20">
-          📽️
-        </div>
-        
-        {/* Text-based editing symbols */}
-        <div className="absolute top-[20%] left-[75%] text-blue-400/15 text-2xl font-mono transform rotate-12">
-          [CUT]
-        </div>
-        <div className="absolute top-[45%] right-[80%] text-purple-400/15 text-xl font-mono transform -rotate-8">
-          FADE IN
-        </div>
-        <div className="absolute top-[15%] left-[70%] text-blue-300/15 text-2xl font-mono transform rotate-15">
-          EDIT
-        </div>
-        <div className="absolute top-[30%] right-[30%] text-purple-300/15 text-xl font-mono transform -rotate-10">
-          RENDER
-        </div>
-        <div className="absolute top-[85%] right-[70%] text-blue-400/15 text-2xl font-mono transform rotate-8">
-          SYNC
-        </div>
-        
-        {/* Abstract editing shapes */}
-        <div className="absolute top-[45%] left-[5%] w-16 h-2 bg-blue-400/10 transform rotate-45 rounded-full"></div>
-        <div className="absolute top-[25%] right-[5%] w-12 h-12 border-2 border-purple-400/10 transform rotate-12 rounded-lg"></div>
-        <div className="absolute top-[75%] left-[40%] w-8 h-20 bg-gradient-to-b from-blue-400/10 to-purple-400/10 transform -rotate-20 rounded-full"></div>
-        <div className="absolute top-[55%] right-[10%] w-20 h-3 bg-blue-300/10 transform rotate-30 rounded-full"></div>
-        
-        {/* Floating animation for some elements */}
-        <style jsx>{`
-          @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(var(--rotation)); }
-            50% { transform: translateY(-10px) rotate(var(--rotation)); }
-          }
-          .float-animation {
-            animation: float 6s ease-in-out infinite;
-          }
-        `}</style>
-        
-      </div>
+      {/* Floating Icons */}
+      <FloatingIcons />
       
       {/* Sophisticated Grid Background */}
       <div className="absolute inset-0">
